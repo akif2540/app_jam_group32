@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'third.dart';
+import 'puanla2.dart';
 
 void main() => runApp(BilgiTesti());
 
@@ -8,7 +8,7 @@ class BilgiTesti extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-          appBar: AppBar(title: Text("Bu Eğitime Yıldızını Nedir"),),
+          appBar: AppBar(title: Text("Eğitimi Puanla"),),
             backgroundColor: Colors.blue[700],
             body: SafeArea(
                 child: Padding(
@@ -29,7 +29,7 @@ class _SoruSayfasiState extends State<SoruSayfasi> {
   List <Widget> secimler=[kYanlisIcon,kYanlisIcon,kYanlisIcon,kYanlisIcon,kYanlisIcon];
   List <String> sorular=[
     'Eğitim videosunu beğendin mi?',
-    'Eğitmenin anatımından memnun kaldın mı?',
+    'Eğitmenin anlatımından memnun kaldın mı?',
     'Eğitimin içeriğini beğendin mi?',
     'Eğitimin sorularını beğendin mi?',
     'Motivasyonun arttı mı ?',
@@ -72,7 +72,7 @@ class _SoruSayfasiState extends State<SoruSayfasi> {
             Text("4");
 
 
-          }, child: Text("Bu Eğitime Puanım")),
+          }, child: Text("Eğitime Puanım")),
 
 
           ],

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:giris/second.dart';
+import 'package:giris/puanla1.dart';
 import "package:youtube_player_flutter/youtube_player_flutter.dart";
 
 Future<void> main() async {
@@ -104,7 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
 ElevatedButton(onPressed:  (){
   Navigator.push(context, MaterialPageRoute(builder: (context)=>BilgiTesti()));
 
-} , child: Text("Yıldızlama Sayfasına Git")),
+} , child: Text("Eğitimi Puanla")),
 
               ],
             ));

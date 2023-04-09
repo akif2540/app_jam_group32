@@ -8,7 +8,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:giris/main.dart';
+import 'package:giris/egitimVideo.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
