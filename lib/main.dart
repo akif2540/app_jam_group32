@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
+import 'package:giris/second.dart';
 import "package:youtube_player_flutter/youtube_player_flutter.dart";
 
 Future<void> main() async {
-  runApp(const MyApp());
+  runApp( MyApp());
 }
 
 class MyApp extends StatelessWidget {
   static const customSwatch = MaterialColor(0xFF356EDE, <int, Color>{
+
     50: Color(0xFFFFEBEE),
     100: Color(0xFFFFCDD2),
     200: Color(0xFF99A489),
@@ -17,6 +19,8 @@ class MyApp extends StatelessWidget {
     700: Color(0xFF1C5287),
     800: Color(0xFF356EDE),
     900: Color(0xFF356EDE),
+
+
   });
 
   const MyApp({Key? key}) : super(key: key);
@@ -52,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
       initialVideoId:
           'Qv-3QWCbD1s', //https://www.youtube.com/watch?v=Qv-3QWCbD1s
       flags: const YoutubePlayerFlags(
-        autoPlay: true,
+        autoPlay: false,
         mute: true,
         isLive: false,
       ),
@@ -73,14 +77,15 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       builder: (context, player) {
         return Scaffold(
+          resizeToAvoidBottomInset: false,
             appBar: AppBar(
               title: const Text("Oyun ve Uygulama Akademisi Flutter Eğitimi"),
             ),
             body: Column(
               children: [
                 player,
-                Text(" "),
-                Text(" "),
+                Text(""),
+                Text(""),
                 Padding(
                   padding:const EdgeInsets.only(left: 50, right: 20, bottom: 20),
                   child: TextField(
@@ -96,9 +101,21 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ),
 
+ElevatedButton(onPressed:  (){
+  Navigator.push(context, MaterialPageRoute(builder: (context)=>BilgiTesti()));
+
+} , child: Text("Yıldızlama Sayfasına Git")),
+
               ],
             ));
       },
     );
   }
 }
+
+class SecondPage {
+}
+
+
+
+
