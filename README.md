@@ -1,16 +1,8 @@
-# giris
+# Oyun ve Uygulama Akademisi/App Jam/Group32/2023
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Proje Hakında
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Oyun Ve Uygulama Akademisi için hazırlamış olduğumuz uygulamada sistemde eksik olarak gördüğümüz video geri dönüşlerini projemize ekledik. Videoya yorum yapabilme, değerlendirebilme gibi işlemlerle kullanıcı geri bildirimlerini eğitimimizden en yüksek verimi almaya odaklı hale getirdik.
+Bir sonraki sürümde projemize videoya yorum yapabilme ve kullanıcıların sistemde birbirleri ile sohbet edebilme özelliklerini ekleyeceğiz.
